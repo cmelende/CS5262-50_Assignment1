@@ -35,11 +35,12 @@ $$
 Where $S_x$ is the collection of the growth rate of the stocks we are focsing on and $|S_x|$ is the cardinality of $S_x$, the number of stocks we will invest in. $T_i$ is the amount of money that we have at a time $i$. 
 
 Next, we'll want to define an terms and expressions to show the amount of money we made/loss starting at an initial day $i$.
+
 $$
 T_{i+1} = \sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}) = PL_{sum} + NT_{sum}
 $$
 
-Where {$P_{x,i}$ |  -1 <= x <= 1 at a time $i$} and are the percentage changes from the beginning and end of the trade window at a time $i$. $SI_{x,i}$ is the amount of money invested in that particular stock at a time $i$. X will be the set of indices of the stock that we chose to invest, while W will be the stock that we chose not to invest.
+Where { $P_{x,i}$ |  -1 <= x <= 1 at a time $i$ } and are the percentage changes from the beginning and end of the trade window at a time $i$. $SI_{x,i}$ is the amount of money invested in that particular stock at a time $i$. X will be the set of indices of the stock that we chose to invest, while W will be the stock that we chose not to invest.
 
 The first summation will be all stocks that we chose to invest, while the second summation are the stocks that we chose not to invest (therefore did not lose money or gain money). We'll call these two summations $PL_{sum}$ for profit loss, and $NT_{sum}$ for no trade. 
 
