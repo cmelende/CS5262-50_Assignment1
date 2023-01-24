@@ -56,7 +56,7 @@ Let $TM_{end}$ be the end amount we get from our ML model, and $TR_{end}$ be the
 If,
 
 $$
-	TM_{end} > (TR_{end})(\epsilon) 
+	TM_{end} > (TR_{end})( \epsilon ) 
 $$
 For some arbitrary small $\epsilon$ 
 Then we have shown that our model has outperformed our random algorithm by a factor of $\epsilon$. But we must also confirm: 
