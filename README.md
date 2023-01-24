@@ -40,7 +40,7 @@ $$
 T_{i+1} = \sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}) = PL_{sum} + NT_{sum}
 $$
 
-Where { $P_{x,i}$ |  -1 <= p <= 1 at a time $i$ } and are the percentage changes from the beginning and end of the trade window at a time $i$ for a stock $x$ . $SI_{x,i}$ is the amount of money invested in that particular stock at a time $i$. X will be the set of indices of the stock that we chose to invest, while W will be the stock that we chose not to invest.
+Where { $P_{x,i}$ |  -1 <= p <= 1 at a time $i$ for a stock $x$ } and are the percentage changes from the beginning and end of the trade window for our stocks. $SI_{x,i}$ is the amount of money invested in that particular stock at a time $i$. X will be the set of indices of the stock that we chose to invest, while W will be the stock that we chose not to invest.
 
 The first summation will be all stocks that we chose to invest, while the second summation are the stocks that we chose not to invest (therefore did not lose money or gain money). We'll call these two summations $PL_{sum}$ for profit loss, and $NT_{sum}$ for no trade. 
 
