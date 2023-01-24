@@ -59,6 +59,7 @@ If,
 $$
 	TM_{end} > (TR_{end})(ε) 
 $$
+
 For some arbitrary small $\epsilon$ 
 Then we have shown that our model has outperformed our random algorithm by a factor of $\epsilon$. But we must also confirm: 
 
