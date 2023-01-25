@@ -12,6 +12,9 @@ We will define some terms that we will use for the rest of this project for clar
 * Sell Close Event (SCE): This refers to the event of selling a stock at the close of a particular day. 
 * Trade Window: The amount of time (we'll measure in days, initially) between a purchase event and a sell event.
 
+
+* Add your research resources and the location of the data you will be sourcing
+
 ### Metrics
 
 The metrics for success and failure, are rather quite simple, since unlike other problems such as creating a ML model for the prediction of whether or not someone is sick or not, do not require additional research into the penantly for getting the prediction wrong. 
@@ -72,6 +75,8 @@ To show that the money we end up with after trading is greater than not trading 
 
 ## Confusion Matrix
 
+* Consider adding a confusion matrix. You may want to check with the professor, but ball park figures should be fine
+
 #### False Positives
 In stock trading, a false positive would mean that our trading model advised us to invest but it shouldnt have. This outcome is worst than a false negative, since there is not a floor to how much money we could lose. In theory, when we sell our stock, the stock could have crashed to $0, or lost %100 of its value. 
 
@@ -85,5 +90,3 @@ Although not as volatile as a false positives, we ideally want to ensure that we
 ## Conclusion
 
 We have demonstrated the mathematical expressions that we will use to as metrics for our ML model, as well as how we plan on using these metrics to determine success/failure, and finally, we have shown the impacts to the business of false negatives and false positives and how we plan on prioritizing both. 
-
-
