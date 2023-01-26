@@ -13,8 +13,6 @@ We will define some terms that we will use for the rest of this project for clar
 * Trade Window: The amount of time (we'll measure in days, initially) between a purchase event and a sell event.
 
 
-* Add your research resources and the location of the data you will be sourcing
-
 ### Metrics
 
 The metrics for success and failure, are rather quite simple, since unlike other problems such as creating a ML model for the prediction of whether or not someone is sick or not, do not require additional research into the penantly for getting the prediction wrong. 
@@ -99,3 +97,6 @@ A potential upside to false negatives is leveraging opportunity under certain co
 ## Conclusion
 
 We have demonstrated the mathematical expressions that we will use to as metrics for our ML model, as well as how we plan on using these metrics to determine success/failure, and finally, we have shown the impacts to the business of false negatives and false positives and how we plan on prioritizing both. 
+
+#### Data
+https://archive.ics.uci.edu/ml/datasets/CNNpred%3A+CNN-based+stock+market+prediction+using+a+diverse+set+of+variables
