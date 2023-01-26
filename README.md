@@ -54,7 +54,7 @@ $$
 We'll also want to consider opportunity cost in the event that our business has a reliable way of making money. In this case, we can define $O_{cost}$ as opportunity cost or the average return of a reliable source of income for capital that was left available from not investing. We'll refine the above expression as follows: 
 
 $$
-T_{end} = T_0 + \sum_{i=0}^n(\sum_{x=X} SI_{x,i} + P_{x,i} • SI_{x,i} - O_{cost} • SI_{x,i} + \sum_{w=W} SI_{w,i} + SI_{w,i} • O_{cost} ) )
+T_{end} = T_0 + \sum_{i=0}^n(\sum_{x=X} P_{x,i} • SI_{x,i} + SI_{x,i} - ( O_{cost} • SI_{x,i} ) + \sum_{w=W} SI_{w,i} + SI_{w,i} • O_{cost} ) )
 = T_0 + \sum_{i=0}^n(\sum_{x=X} ( ( 1 + P_{x,i}) • SI_{x,i} ) - O_{cost} • SI_{x,i} + \sum_{w=W} SI_{w,i} • ( 1 + O_{cost} ) )
 $$
 
