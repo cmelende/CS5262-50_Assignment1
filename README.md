@@ -72,7 +72,7 @@ $$
 PL_{adj} > 0
 $$
 
-We have shown that our model has increased our profit versus leveraging our opportunity, or in other words, its better to use our model than some other reliable, albeit lower, means of investing.
+We have shown that our model has increased our profit versus leveraging only our opportunity, or in other words, its better to use our model than some other reliable, albeit lower, means of investing.
 
 ## Confusion Matrix
 
