@@ -15,7 +15,7 @@ We will define some terms that we will use for the rest of this project for clar
 
 ### Metrics
 
-The metrics for success and failure, are rather quite simple, since unlike other problems such as creating a ML model for the prediction of whether or not someone is sick or not, do not require additional research into the penantly for getting the prediction wrong. 
+The metrics for success and failure, are rather quite simple, since unlike other problems such as creating a ML model for the prediction of whether or not someone is sick or not, our will not require much additional research into the penantly for getting the prediction wrong. 
 
 The main goal of this project is to simply make more money from the stock market than that of a trading algorithm that randomly selects whether or not initiate a purchase close event on day 1 and a sell close event on day 2. Its Important to note here that our trade window will be static at 1 day, at least initially. 
 
