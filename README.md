@@ -48,7 +48,7 @@ The first summation will be all stocks that we chose to invest, while the second
 So for a group of trades, we can define it our ending amount with profits/losses over a time period $n$ as: 
 
 $$
-T_{end} = T_0 + \sum_{i=0}^n(\sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}))
+T_{n} = T_0 + \sum_{i=0}^n(\sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}))
 $$
 
 We'll also want to consider opportunity cost in the event that our business has a reliable way of making money. In this case, we can define $O_{cost}$ as opportunity cost or the average return of a reliable source of income for capital that was left available from not investing. We'll refine the above expression to find our theoritical max, $T_{max}$ , we can earn: 
