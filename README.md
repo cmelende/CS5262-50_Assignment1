@@ -41,7 +41,7 @@ $$
 T_{i+1} = \sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}) = PL_{sum} + NT_{sum}
 $$
 
-Where $P_{x,i}$ s.t p ε $P_{x,i}$ and -1 <= $p$ <= 1 at a time $i$ for a stock $x$ , is the set of percentage differentials from the beginning and end of the trade window for our stocks. $SI_{x,i}$ is the amount of money invested in that particular stock, $x$ , at a time $i$. $X$ will be the set of indices of the stock that we chose to invest, while $W$ will be the indices of the stock that we chose not to invest.
+Where $P_{x,i}$ s.t p $\epsilon$ $P_{x,i}$ and -1 <= $p$ <= 1 at a time $i$ for a stock $x$ , is the set of percentage differentials from the beginning and end of the trade window for our stocks. $SI_{x,i}$ is the amount of money invested in that particular stock, $x$ , at a time $i$. $X$ will be the set of indices of the stock that we chose to invest, while $W$ will be the indices of the stock that we chose not to invest.
 
 The first summation will be all stocks that we chose to invest, while the second summation are the stocks that we chose not to invest (therefore did not lose money or gain money). We'll call these two summations $PL_{sum}$ for profit loss, and $NT_{sum}$ for no trade. 
 
@@ -75,7 +75,7 @@ $$
 $$
 
 For some arbitrary small ε s.t. ε > 0
-Then we have shown that our model has outperformed our random algorithm by a factor of $\epsilon$. But we must also confirm: 
+Then we have shown that our model has outperformed our random algorithm by a factor of ε. But we must also confirm: 
 
 $$
 	TM_{end} > T_0
