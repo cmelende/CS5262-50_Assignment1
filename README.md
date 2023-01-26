@@ -55,7 +55,7 @@ We'll also want to consider opportunity cost in the event that our business has 
 
 
 $$
-PL_{actual} = \sum_{i=0}^n(\sum_{x=X} ( P_{x,i} • SI_{x,i} ) + \sum_{w=W}  SI_{w,i} • O_{cost}  )
+PL_{actual} = \sum_{i=0}^n(\sum_{x=X} ( P_{x,i} • SI_{x,i} ) + \sum_{w=W}  SI_{w,i} • O_{cost}  
 $$
 
 And to factor in opportunity cost, we'll have to subtract the opportunity that we missed which will give us an adjusted profit/loss, $PL_{adj}$ that represents the actual net gain/loss of using our model. This is because if we had not invested in any stock, and our business has a reliable opportunity to invest that capital, then we would see a net gain from that opportunity alone. We can define $PL_{adj}$:
