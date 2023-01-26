@@ -75,17 +75,19 @@ To show that the money we end up with after trading is greater than not trading 
 
 ## Confusion Matrix
 
-* Consider adding a confusion matrix. You may want to check with the professor, but ball park figures should be fine
-
 #### False Positives
-In stock trading, a false positive would mean that our trading model advised us to invest but it shouldnt have. This outcome is worst than a false negative, since there is not a floor to how much money we could lose. In theory, when we sell our stock, the stock could have crashed to $0, or lost %100 of its value. 
+In stock trading, a false positive would mean that our trading model advised us to invest but it shouldnt have. This outcome is worst than a false negative, since there is not a floor to how much money we could lose. In theory, when we sell our stock, the stock could have crashed to $0, or lost 100% of its value. 
 
 Its pertinent for our model that we air on the side of caution and bias our model to not invest if there is not a strong indication that the stock will go up. By not investing, we guarantee that we keep that money instead of losing it all.
 
 One factor we must also consider is the compounding nature of profit and losses. For each profit we make on a day, we are able to invest even more the following day. However, as stated earlier, there is huge potential for losses if the stock crashes that day. So these two factors must be weighed and considered.
 
+Lastly, we must consider opportunity costs of other potential investments, if we invest within the trading window, we can assume that our capital will be unavailable for other types of investment and will need to be considered. This would rely on the business, however, since there are few ways to make substantial amounts of money in such a short amount of time, and most of them require large amounts of capital.
+
 #### False Negatives
-Although not as volatile as a false positives, we ideally want to ensure that we are choosing to invest on some days, even if they are few.  We are comfortable with choosing to invest fewer days rather than more since we want to minimize the amount of false positives that we get. Furthermore, unlike false positives, false negatives would still allow us to trade in the future since the amount of money we have has not been depleted. Conversely, false positives will quickly drain our amount of money we have to invest, and if we get to zero, we are no longer able to invest.
+For our stock trader, a false negative would mean our model advised not to invest, but should have. Although not as volatile as a false positives, we ideally want to ensure that we are choosing to invest on some days, even if they are few.  We are comfortable with choosing to invest fewer days rather than more since we want to minimize the amount of false positives that we get. Furthermore, unlike false positives, false negatives would still allow us to trade in the future since the amount of money we have has not been depleted. Conversely, false positives will quickly drain our amount of money we have to invest, and if we get to zero, we are no longer able to invest.
+
+A potential upside to false negatives is leveraging opportunity under certain conditions. If we choose not to invest, we can assume that we have that capital in our broker account and available for investment, if our business had a very reliable way of making money with our capital within the trading window, then we can factor this in and consider it to offset the cost of a false negative, atleast somewhat. 
 
 ## Conclusion
 
