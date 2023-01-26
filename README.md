@@ -65,7 +65,7 @@ PL_{adj} = T_0 + \sum_{i=0}^n(\sum_{x=X} ( P_{x,i} • SI_{x,i} ) - ( O_{cost} �
 $$
 
 $$
-= T_0 + \sum_{i=0}^n(\sum_{x=X} ( ( 1 + P_{x,i}) • SI_{x,i} ) - ( O_{cost} • SI_{x,i} ) + \sum_{w=W} SI_{w,i} • ( 1 + O_{cost} ) )
+= \sum_{i=0}^n(\sum_{x=X} ( ( 1 + P_{x,i}) • SI_{x,i} ) - ( O_{cost} • SI_{x,i} ) + \sum_{w=W} SI_{w,i} • ( 1 + O_{cost} ) )
 $$
 
 
