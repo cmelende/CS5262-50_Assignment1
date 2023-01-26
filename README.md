@@ -43,15 +43,22 @@ $$
 T_{i+1} = \sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}) = PL_{sum} + NT_{sum}
 $$
 
-Where $P_{x,i}$ s.t p ε $P_{x,i}$ and -1 <= $p$ <= 1 at a time $i$ for a stock $x$ , is the set of percentage differentials from the beginning and end of the trade window for our stocks. $SI_{x,i}$ is the amount of money invested in that particular stock, $x$ , at a time $i$. X will be the set of indices of the stock that we chose to invest, while W will be the indices of the stock that we chose not to invest.
+Where $P_{x,i}$ s.t p ε $P_{x,i}$ and -1 <= $p$ <= 1 at a time $i$ for a stock $x$ , is the set of percentage differentials from the beginning and end of the trade window for our stocks. $SI_{x,i}$ is the amount of money invested in that particular stock, $x$ , at a time $i$. $X$ will be the set of indices of the stock that we chose to invest, while $W$ will be the indices of the stock that we chose not to invest.
 
 The first summation will be all stocks that we chose to invest, while the second summation are the stocks that we chose not to invest (therefore did not lose money or gain money). We'll call these two summations $PL_{sum}$ for profit loss, and $NT_{sum}$ for no trade. 
 
 So for a group of trades, we can define it our ending amount with profits/losses over a time period $n$ as: 
 
 $$
-T_{end} = T_0 + \sum_{i=0}^n(\sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}))
+1. T_{end} = T_0 + \sum_{i=0}^n(\sum_{x=X} (P_{x,i} + 1)(SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}))
 $$
+
+We'll also want to consider opportunity cost in the event that our business has a reliable way of making money. In this case, we can define $OR$ as the average return of a reliable source of income for capital that was left available from not investing. We'll refine (1.) as follows: 
+
+$$
+1. T_{end} = T_0 + \sum_{i=0}^n(\sum_{x=X} ( (1+ P_{x,i}) • SI_{x,i} ) - ((1 + OR) • SI_{x,i}) + \sum_{w=W} (1.00)(SI_{w,i}))
+$$
+
 
 This can be used for both our model and our random algorithm. 
 
