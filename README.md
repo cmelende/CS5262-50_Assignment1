@@ -29,7 +29,7 @@ $$
 T_0
 $$
 
- Well define the amount invested in each stock, at a time $i$ to be:
+ Well define the amount invested in each stock, $x$ , at a time $i$ to be:
 
 $$
 SI_{x,i} = {T_i \over |S_x|}
