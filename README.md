@@ -66,23 +66,13 @@ $$
 
 This can be used for both our model and our random algorithm. 
 
-Let $TM_{end}$ be the end amount we get from our ML model, and $TR_{end}$ be the end amount we get from our randomized algorithm.
-
-If,
+If, 
 
 $$
-	TM_{end} > (TR_{end})(ε) 
+PL_{adj} > 0
 $$
 
-For some arbitrary small ε s.t. ε > 0
-Then we have shown that our model has outperformed our random algorithm by a factor of ε. But we must also confirm: 
-
-$$
-	TM_{end} > T_0
-$$
-
-To show that the money we end up with after trading is greater than not trading at all.
-
+We have shown that our model has increased our profit versus leveraging our opportunity, or in other words, its better to use our model than some other reliable, albeit lower, means of investing.
 
 ## Confusion Matrix
 
